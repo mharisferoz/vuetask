@@ -1,0 +1,142 @@
+
+.divider {
+    opacity: 0.25;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+
+#btn-toggle {
+    background-color: rgba(255,255,255,0.15);
+    transition: 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-toggle:hover {
+    background-color: rgba(0,255,255, 1);
+    box-shadow: 0px 0px 6px aqua;
+}
+
+.app-bar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.app-bar-content h2 {
+    color: rgba(255,255,255,0.75);
+}
+
+.app-bar-content h2:hover {
+    color: rgba(255,255,255,1);
+}
+
+.transition-default {
+    transition: 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+.col-md-4,.col-md-3{
+    border: 1px solid black;
+}
+.col-md-4{
+    border-top: 0px solid;
+    border-right: 0px solid;
+}
+.borderleftzero{
+    border-left: 0px !important;
+}
+.borderrightzero{
+    border-right: 0px !important;
+}
+.bordertopzero{
+    border-top: 0px !important;
+}
+.borderbottomzero{
+    border-bottom: 0px !important;
+}
+.txtaligncenter{
+    text-align: center;
+}
+.fnwtbold{
+    font-weight: bold;
+}
+.fnsz14{
+    font-size: 14px;
+    line-height: 1.7;
+}
+.cardheader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    font-weight: 300 !important;
+    display: block !important;
+}
+.nopadding{
+    padding: 0px !important;
+}
+.noborder{
+    border: 0px !important;
+}
+.v-list-item{
+    border: 1px solid black; 
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    height: 50px;
+}
+.v-list-item:last-child{
+    border-bottom: 1px solid black;
+}
+.submenu{
+    margin-left: 200px;
+    border-left: 1px solid black;
+}
+.boxshadownone{
+    box-shadow: none !important;
+}
+.v-navigation-drawer{
+    border: 1px solid black;
+    width: 200px !important;
+}
+.v-list-item:hover, .v-list-item__content:hover{
+    background: black;
+    color: white;
+}
+.v-overlay__scrim,.v-overlay__scrim{
+    opacity: 0 !important;
+}
+.v-list-item:hover .v-icon, .v-list-item__content:hover .v-icon{
+    color: white !important;
+}
+.labelBtn{
+    text-align: left;
+    padding-left: 10%;
+}
+.labelBtn .labelBtnIcon{
+    right: 0;
+    margin-left: auto;
+    margin-right: 10px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+}
+.labelBtn .labelBtnText{
+    font-size: 17px;
+    line-height: 2;
+}
+.border{
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .app-bar-content h2 {
+        font-size: 18px;
+    }
+}
