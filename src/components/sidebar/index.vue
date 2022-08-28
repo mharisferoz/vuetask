@@ -2,7 +2,7 @@
   <div>
     <v-app-bar short dense app>
       <span @click="changeToggleState" @mouseover="drawer = true" >Menu</span>
-      <v-toolbar-title>
+      <v-toolbar-title class="headertitle">
         <v-icon
         large
         color="blue darken-2"
@@ -10,19 +10,6 @@
         mdi-brightness-percent
       </v-icon>
       </v-toolbar-title>
-      <!-- <v-row>
-        <v-col lg="2" md="2" sm="12" xs="12">
-          <v-title name="menu"  id="btn-toggle-icon" @click="changeToggleState" @mouseover="drawer = true">Menu</v-title>
-        </v-col>
-        <v-col lg="10" md="10" sm="12" xs="12" class="txtaligncenter">
-          <v-icon
-            large
-            color="blue darken-2"
-          >
-            mdi-brightness-percent
-          </v-icon>
-        </v-col>
-      </v-row> -->
       
     </v-app-bar>
     <v-main>

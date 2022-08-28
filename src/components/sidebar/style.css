@@ -133,6 +133,9 @@
 .border{
     border: 1px solid black;
 }
+.headertitle{
+    margin-left: 46%;
+}
 
 
 @media screen and (max-width: 600px) {
